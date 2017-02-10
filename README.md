@@ -210,7 +210,7 @@ Follow the below steps
     
     }
 
-9) Run the project and done.
+9) Run the project and done. Below are screenshots.
 
   ![Screenshot Tab 1] (screen_1.png)
   ![Screenshot Tab 2] (screen_2.png)
