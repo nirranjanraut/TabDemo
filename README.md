@@ -4,6 +4,7 @@ Follow the below steps
 
 1) Go to ‘build.gradle’ of `Module:app` and add compile dependancy
 
+    compile 'com.android.support:appcompat-v7:23.0.+'
     compile 'com.android.support:design:23.0.+'
 
 
@@ -16,11 +17,7 @@ Follow the below steps
         android:id="@+id/activity_main"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="@dimen/activity_vertical_margin"
-        android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin"
-        xmlns:app="http://schemas.android.com/apk/lib/com.app.chasebank"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         tools:context="in.gauriinfotech.tabdemo.MainActivity">
 
         <android.support.design.widget.TabLayout
@@ -170,7 +167,12 @@ Follow the below steps
         public int getCount() {
             return TOTAL_TABS;
         }
-    
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return "TAB : " + position;
+        }
+
     }
 
 
@@ -207,3 +209,8 @@ Follow the below steps
         }
     
     }
+
+9) Run the project and done.
+
+  ![Screenshot Tab 1] (screen_1.png)
+  ![Screenshot Tab 2] (screen_2.png)

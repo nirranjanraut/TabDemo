@@ -35,4 +35,8 @@ public class MyPagerAdapter extends FragmentPagerAdapter {
         return TOTAL_TABS;
     }
 
+    @Override
+    public CharSequence getPageTitle(int position) {
+        return "TAB : " + position;
+    }
 }
