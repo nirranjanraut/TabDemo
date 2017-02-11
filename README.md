@@ -212,5 +212,4 @@ Follow the below steps
 
 9) Run the project and done. Below are screenshots.
 
-  ![Screenshot Tab 1] (screen_1.png | height=300)
-  ![Screenshot Tab 2] (screen_2.png | width=200px)
+<img src='screen_1.png' width='200px' height='400px' />&nbsp;&nbsp;&nbsp;<img src='screen_2.png' width='200px' height='400px' />
