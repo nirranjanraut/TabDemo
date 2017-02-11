@@ -212,5 +212,5 @@ Follow the below steps
 
 9) Run the project and done. Below are screenshots.
 
-  ![Screenshot Tab 1] (screen_1.png =400x400)
-  ![Screenshot Tab 2] (screen_2.png =400x400)
+  ![Screenshot Tab 1] (screen_1.png | height=300)
+  ![Screenshot Tab 2] (screen_2.png | width=200px)
